@@ -34,11 +34,12 @@ skip_render:
 # 菜单
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
-  categories: /categories/
-  archives: /archives/
-  tags: /tags/
-  about: /about/
+  home: /|| home //首页
+  categories: /categories/|| th   //分类
+  archives: /archives/|| archive //归档
+  schedule: /schedule/|| calendar   //日程表
+  tags: /tags/|| tags  //标签
+  about: /about/|| user  //关于
   #sitemap: /sitemap.xml
   #commonweal: /404/
 # menu:
